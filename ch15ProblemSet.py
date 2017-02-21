@@ -90,13 +90,22 @@ for line in file:
         word_number.append(word.lower())
     #word_number.append(line)
 #print(word_number)
-print(len(word_number))
+print("There are", (len(word_number)), "words in Alice In Wonderland.")
     #line = line.lower()
     #words = split_line(line)
     #for word in words:
         #print(word)
 
+
 # make an algorithm to find the average length
+tracking = 0
+for item in range(len(word_number)):
+    tracking += len(word_number[item])
+
+average = tracking / len(word_number)
+average = round(average, 2)
+print("The average number of letters in the words in Alice In Wonderland is", average ,"letters.")
+
 
 
 
@@ -111,7 +120,11 @@ print(len(word_number))
 
 #3  (13pts)Find the most frequently occurring
 # seven letter word in "AliceInWonderLand.txt"
+
 # for word in range(len(signahy))
+seven_let = signahy
+for word in range(len(seven_let)):
 
 
-# Challenge problem (for fun).  What words appear in the text of "Alice in Wonderland" that DO NOT occur in "Alice Through the Looking Glass".  Make a list.  You can substitute this for any of the above problems.
+# Challenge problem (for fun).  What words appear in the text of "Alice in Wonderland" that DO NOT occur in "Alice Through the Looking Glass".
+# Make a list.  You can substitute this for any of the above problems.
