@@ -34,7 +34,7 @@ for word in dictionary_file:
         #longest_words.append(word)
         #number = len(word)
 
-print("The length of the longest word is" , number , "letters")
+print("The length of the longest word is" , number , "letters.")
 print("The longest word is: ", long_word)
 file.close()
 '''
@@ -108,7 +108,6 @@ print("The average number of letters in the words in Alice In Wonderland is", av
 
 
 
-
 ##### CHOOSE ONE OF THE FOLLOWING TWO PROBLEMS #####
 
 #3 (13pts)  How many times does "Cheshire" occur in"AliceInWonderLand.txt"?
@@ -122,9 +121,19 @@ print("The average number of letters in the words in Alice In Wonderland is", av
 # seven letter word in "AliceInWonderLand.txt"
 
 # for word in range(len(signahy))
-seven_let = signahy
-for word in range(len(seven_let)):
+print("\nProblem #3")
 
+
+seven_let_list = []
+for item in word_number:
+    individual = (len(item))
+    if individual == 7:
+        individual = item
+        seven_let_list.append(individual)
+print(seven_let_list)
+
+for item in seven_let_list:
+    pass
 
 # Challenge problem (for fun).  What words appear in the text of "Alice in Wonderland" that DO NOT occur in "Alice Through the Looking Glass".
 # Make a list.  You can substitute this for any of the above problems.
