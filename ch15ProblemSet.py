@@ -66,15 +66,14 @@ print("\nCHOOSE")
 # How many times does "Cheshire" immediately followed by "Cat" occur?
 # use .upper and .lower
 
-
-
+'''
 for items in alice:
     number = 0
     for words in range(len(alice)):
-        if alice[words].lower() == str("Cheshire").upper():
+        if alice[words].lower() == str("Cheshire").lower():
             number += 1
 print(number)
-
+'''
 
 ### OR ###
 
@@ -82,18 +81,31 @@ print(number)
 #3  (13pts)Find the most frequently occurring
 # seven letter word in "AliceInWonderLand.txt"
 print("\nProblem #3")
-'''
+
 seven_let_list = []
 
-for item in word_number:
+for item in alice:
     individual = (len(item))
     if individual == 7:
         individual = item
         seven_let_list.append(individual)
-print(seven_let_list)
+#print(seven_let_list)
 
+for item in seven_let_list:
+    pass
+    #print(seven_let_list[0])
 
-for item in word_number:
+print(seven_let_list[0])
+print(len(seven_let_list))
+
+done = True
+'''
+while not done:
+    random = random.randrange(len(seven_let_list))
+    if seven_let_list[0] == seven_let_list[random]:
+'''
+'''
+for item in alice:
     individual = (len(item))
     if len(item) == 7:
         for i in len(seven_let_list):
@@ -105,7 +117,7 @@ print(seven_let_list)
 
 
 sevens = []
-for word in word_number:
+for word in alice:
     if len(word) == 7:
         for i in len(int(sevens)):
             if word == sevens[i][0]:
