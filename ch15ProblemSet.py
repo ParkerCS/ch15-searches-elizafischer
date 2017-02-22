@@ -115,7 +115,6 @@ for item in alice:
             seven_let_list.append([item, 1])
 print(seven_let_list)
 
-
 sevens = []
 for word in alice:
     if len(word) == 7:
