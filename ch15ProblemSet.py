@@ -1,3 +1,7 @@
+# You are close on the last one.
+# You just need to go through your list and see which is the most frequent (count each one).
+# nice work.
+
 '''
 Complete the following 3 searching problems using techniques
 from class and from Ch15 of the textbook website
@@ -89,7 +93,7 @@ for item in alice:
     if individual == 7:
         individual = item
         seven_let_list.append(individual)
-#print(seven_let_list)
+print(seven_let_list)
 
 for item in seven_let_list:
     pass
